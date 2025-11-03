@@ -45,19 +45,31 @@ yizhixing/
 
 ## 安装和运行
 
-### 1. 安装依赖
+### 1. 本地运行
 ```bash
+# 安装依赖
 pip install -r requirements.txt
-```
 
-### 2. 运行系统
-```bash
-cd yizhixing
+# 运行系统
 streamlit run main_app.py
+
+# 访问系统
+打开浏览器访问：http://localhost:8501
 ```
 
-### 3. 访问系统
-打开浏览器访问：`http://localhost:8501`
+### 2. Streamlit Cloud 部署
+1. 将代码推送到 GitHub 仓库
+2. 访问 [Streamlit Cloud](https://share.streamlit.io/)
+3. 连接您的 GitHub 账户
+4. 选择 lixuefenxi 仓库
+5. 设置部署路径为 `main_app.py`
+6. 点击部署
+
+### 3. 访问在线应用
+部署完成后，您将获得一个公开的 URL，例如：
+```
+https://your-app-name.streamlit.app
+```
 
 ## 使用说明
 
